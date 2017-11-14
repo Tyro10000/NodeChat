@@ -1,15 +1,17 @@
-function allowDrop(ev) {
-    ev.preventDefault();
-}
-function noDrop(ev){
-	return false;
-}
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
+$(document).ready(function(){
 
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}
+
+
+
+	$("#start").click(function(){
+		$(".showBox").fadeOut();
+        $(".loginBox").slideDown("slow");
+    });
+    $("#login").click(function(){
+    	window.location.replace("Pages/Base.html");
+    })
+
+
+
+
+});

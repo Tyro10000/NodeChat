@@ -8,6 +8,7 @@
 	<link rel="StyleSheet" href="css/style.css">
 	<title>LChat</title>
 	<link rel="shortcut icon" type="image/x-icon" href="Img/favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="Scripts/Script.js"></script>
 </head>
 <body>
@@ -17,21 +18,83 @@
 	<div class="showState">
 		<div class="loginBox" >
 			<img src="Img/user.svg" class="user"/>
-			<h2>Login</h2>
+			<h2>Sign-In</h2>
 			
 			<form>
 				<p>Email</p>
-				<input type="text" name="" placeholder="Enter Email">
+				<input type="text" name="" placeholder="Enter Email"/>
 				<p>Password</p>
-				<input type="Password" name="" placeholder="******">
-				<input type="Submit" name="">
+				<input type="Password" name="" placeholder="******"/>
+				<input type="Submit" name="Submit" id="login" value="Login" />
+				<input type="Submit" name="Register" value="Register"/>
 			</form>
-			
-
 		</div>
-		
-		
+		<div class="showBox">
+			<h1>Horizon Vox</h1>
+			<h3>A New Experience in Dynamic Scum Interactions and Development.</h3>
+			<button class="btn" id="start">Start</button>
+		</div>
 	</div>
+	<div class="row_white">
+		<div class="port">
+			<h3>Smart</h3>
+			<div class="port_circle" id="colab"></div>
+			<p>We work on pushing technology to new limits and integrating IOT solutions</p>
+		</div>
+		<div class="port">
+			<h3>Simple</h3>
+			<div class="port_circle" id="Cog"></div>
+			<p>Independent or a Team,we want to foster collective ideas to build new pathways to success In Easy to Implement features</p>
+		</div>
+		<div class="port">
+			<h3>Successful</h3>
+			<div class="port_circle" id="partner"></div>
+			<p>Nourishing and investing in new partnerships and collaborations is our goal</p>
+		</div>
+	</div>
+	<div class="row_header">
+		<h3>Our Keys to Success</h3>
+		<div class="row_blue">
+		
+			<div class="impactBlock" style="background-color:orange">
+				User Engangement
+			</div>
+			<div class="impactBlock" style="background-color:steelblue">
+				Innovation in New Concepts
+			</div>
+			<div class="impactBlock" style="background-color:green">
+				Drive to Push Performance
+			</div>
+			<div class="impactBlock" style="background-color:gray">
+				Integritry in our products
+			</div>
+		</div>
+	</div>
+	<div class="row_white">
+		<div class="port">
+			<div class="port_face" id="greg"></div>
+			<p><i>This system has done wonders for our company,It's great increased our productivity tenfold.</i></p>
+			<h3>Greg </h3>
+		</div>
+		<div class="port">
+			<div class="port_face" id="trump"></div>
+			<p><i>So great! really great! the best.Just really cannot be beat, believe me.</i></p>
+			<h3>Donald Trump</h3>
+		</div>
+		<div class="port">
+			<div class="port_face" id="rock"></div>
+			<p><i>I don't know what this stuff does,They paid me to do this.</i></p>
+			<h3>The Rock</h3>
+		</div>
+	</div>
+	<div class="row_header">
+		<h3>Whats Stopping you?</h3>
+		<p>Redesign your Work Place Collaboration Now</p>
+		<div class="row_blue" style="height:150px;">
+			<button class="btn" id="start">Register</button>
+		</div>
+	</div>
+
 
 
 </body>

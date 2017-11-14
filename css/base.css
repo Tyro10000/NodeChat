@@ -1,0 +1,21 @@
+.grid{
+	background: #b69b4c;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+.Box{
+	margin:10px;
+	width:125px;
+	height:125px;
+	border:1px solid black;
+	border-radius: 20px;
+	color:#fff;
+	background:black;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
